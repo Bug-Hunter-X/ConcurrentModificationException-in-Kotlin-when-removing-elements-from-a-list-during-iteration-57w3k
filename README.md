@@ -1,0 +1,3 @@
+# ConcurrentModificationException in Kotlin
+
+This example demonstrates a common error in Kotlin when modifying a mutable list during iteration, leading to a `ConcurrentModificationException`.  The `removeIf` function provides a safe way to remove elements based on a predicate, but manually removing elements within a loop is unsafe.  The solution showcases how to use `removeIf` or iterate in reverse order to avoid this issue.
